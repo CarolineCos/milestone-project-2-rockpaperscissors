@@ -1,5 +1,5 @@
 
-body {background-color: yellow;
+body {background-color: lightcoral;
     font-family: "indie flower", roboto;
     
 }
@@ -7,21 +7,43 @@ h1 {
     text-align: center;
 }
 img {
-    width: auto;
-    height: 30%;
+    width: 50%;
+    height: auto;
+    
 }
 
-.game {
+#container {
+    width: 100%;
     display: inline-block;
-    width: 30%;
-    align-items: center;
-    padding-left: 30px;
+    clear: both;
+}
+
+#left{
+
+}
+
+#right{
+
+}
+#center{
+
+}
+.game {
+   /* display: inline-block;*/
+    width: 33%;
+    text-align: center;
+    padding:0px 30px;
+    
 }
 
 .choices {
-    float: left;
+   text-align: center;
     margin-left: 10px;
     padding-right: 80px;
+}
+
+button {
+    margin: 15px;
 }
 
 .player {
@@ -31,12 +53,31 @@ img {
 
 .computer {
     float: right;
+    margin-right: 30px;
 }
 
-li  {
-    list-style: none;
-}
-
+/*
 .score-area {
-   text-align: center;
+    margin: 3px auto;
+    width: 60%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+*/
+.score-area{
+    float: centre;
+    margin: 0 auto;
+    width: 50px;
+    border: white solid 5px;
+}
+.scores
+   font-size: larger;
+   margin-left: 25px;
+   font-weight: bold;
+  
+}
+
+#score {
+    background-color: white;
+    padding: .75px 8px;
 }
