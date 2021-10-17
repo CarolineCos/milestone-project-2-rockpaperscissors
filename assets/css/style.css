@@ -7,6 +7,36 @@ h1 {
     text-align: center;
 }
 img {
+    width: auto;
+    height: 30%;
+}
+
+.game {
+    display: inline-block;
     width: 30%;
-    height: auto;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.choices {
+    float: left;
+    margin-left: 10px;
+    padding-right: 80px;
+}
+
+.player {
+    float: left;
+    ;
+}
+
+.computer {
+    float: right;
+}
+
+li  {
+    list-style: none;
+}
+
+.score-area {
+   text-align: center;
 }
