@@ -12,32 +12,17 @@ img {
     
 }
 
-#container {
-    width: 100%;
-    display: inline-block;
-    clear: both;
-}
-
-#left{
-
-}
-
-#right{
-
-}
-#center{
-
-}
 .game {
-   /* display: inline-block;*/
-    width: 33%;
+    display: inline-block;
+    width: 30%;
+    
     text-align: center;
-    padding:0px 30px;
+    padding:0px 5px;
     
 }
 
 .choices {
-   text-align: center;
+    text-align: center;
     margin-left: 10px;
     padding-right: 80px;
 }
@@ -48,36 +33,31 @@ button {
 
 .player {
     float: left;
-    ;
+  
 }
 
 .computer {
     float: right;
-    margin-right: 30px;
+    
 }
 
-/*
-.score-area {
-    margin: 3px auto;
-    width: 60%;
-    font-size: 1.2rem;
+
+.score-area{
+   display: inline-block;
+    margin: 0 auto;
+    width: 30%;
+    height: auto;
     text-align: center;
 }
-*/
-.score-area{
-    float: centre;
-    margin: 0 auto;
-    width: 50px;
-    border: white solid 5px;
-}
-.scores
+.scores {
    font-size: larger;
    margin-left: 25px;
    font-weight: bold;
-  
+  padding-bottom: 40px;
 }
 
 #score {
     background-color: white;
     padding: .75px 8px;
+    
 }
