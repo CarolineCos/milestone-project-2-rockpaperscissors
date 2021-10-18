@@ -17,28 +17,33 @@
         <button>Rock</button>
         <button>Paper</button>
         <button>Scissors</button>
-</div>
+    </div>
 
-    <div class="game">
-                <p class="player">
+<section id="game-area">
+    <div class="game" id="player-left">
+                <p >
                 <h2>Players Choice:</h2>
             <img src="assets/images/RPS.jpg" alt="rock-paper-scissors-image">
             </p>
     </div>
-        <div class="game" > 
-            <p class="computer">
+        <div class="game" id="computer-right"> 
+            <p>
                 <h2>Computers Choice:</h2>
             <img src="assets/images/RPS.jpg" alt="rock-paper-scissors-image">
             </p>
         </div>
 
-    <div class="score-area">
-        
+        <div class="score-area" id="score-center">
+        <h2>Scores:</h2>
         <p class="scores">Player: <span id="score">0</span> </p>
         <p class="scores"> Computer: <span id="score">0</span></p>
-    </div>
+        </div>
 
-    <footer>Rules</footer>
+</section>
+
+    <footer >
+        <span class="rules"> <p>Rock beats Scissors / Scissors beats Paper / Paper beats rock</p></span>
+    </footer>
   
     <script src="assets/js/script.js"></script>
 </body>

@@ -6,16 +6,15 @@ body {background-color: lightcoral;
 h1 {
     text-align: center;
 }
+
 img {
     width: 50%;
     height: auto;
-    
 }
 
 .game {
     display: inline-block;
     width: 30%;
-    
     text-align: center;
     padding:0px 5px;
     
@@ -29,35 +28,58 @@ img {
 
 button {
     margin: 15px;
+    border: none;
+    background-color: lightcoral;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
 }
 
-.player {
+#game-area{
+    height: 300px;
+}
+#player-left {
+    width: 33%;
     float: left;
-  
-}
+  }
 
-.computer {
+#computer-right {
+    width: 33%;
     float: right;
     
+}
+#score-center{
+    width: 33%;
+    margin: 0 auto;
 }
 
 
 .score-area{
-   display: inline-block;
-    margin: 0 auto;
-    width: 30%;
-    height: auto;
     text-align: center;
+    padding-top: 10px;
 }
+
 .scores {
    font-size: larger;
+   margin-top: 5px;
    margin-left: 25px;
    font-weight: bold;
-  padding-bottom: 40px;
+   padding-bottom: 40px;
+   text-align: center;
 }
 
 #score {
     background-color: white;
     padding: .75px 8px;
-    
+  }
+
+footer{
+    position: absolute;
+    width: 100%;
+
+}
+
+.rules{
+  
+    text-align: center;
 }
