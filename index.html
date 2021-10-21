@@ -14,33 +14,29 @@
     
     <div class="choices">
         <h2>Make Your Choice:</h2>
-        <button aria-label="rock" data-choice="0" class="rock">Rock</button>
-        <button aria-label="rock" data-choice="1" class="paper">Paper</button>
-        <button aria-label="rock" data-choice="2" class="scissors">Scissors</button>
+        <button aria-label="rock" data-choice="0" class="rock controls">Rock</button>
+        <button aria-label="paper" data-choice="1" class="paper controls">Paper</button>
+        <button aria-label="scissors" data-choice="2" class="scissors controls">Scissors</button>
     </div>
 
-<section id="game-area">
+    <section id="game-area">
     <div class="game" id="player-left">
-                <p >
-                <h2>Players Choice:</h2>
-            <img src="assets/images/RPS.jpg" alt="rock-paper-scissors-image">
-            </p>
+            <h2>Players Choice:</h2>
+            <img id="player-image" src="assets/images/RPS.jpg" alt="rock-paper-scissors-image">
+            
     </div>
         <div class="game" id="computer-right"> 
-            <p>
-                <h2>Computers Choice:</h2>
+            <h2>Computers Choice:</h2>
             <img src="assets/images/RPS.jpg" alt="rock-paper-scissors-image">
-            </p>
-        </div>
-
-</section>
-
-<div class="score-area" id="score-center">
-    <h2>Scores:</h2>
-    <span class="scores">Player: <span id="score">0</span> </span>
-<span class="scores"> Computer: <span id="score">0</span></span>
     </div>
 
+    </section>
+
+    <div class="score-area" id="score-center">
+    <span class="scores">Player: <span id="score">0</span> </span>
+    <span class="scores"> Computer: <span id="score">0</span></span>
+    </div>
+    
     <footer >
         <span class="rules"> <p>Rock beats Scissors / Scissors beats Paper / Paper beats rock</p></span>
     </footer>
