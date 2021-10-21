@@ -1,7 +1,25 @@
-let buttons = document.getElementsByClassName("controls");
-let playerImage = document.getElementById("player-image");
-let computerImage = document.getElementById("computer-image");
-let playerScore = document.getElementById("player-score");
-let computerScore = document.getElementById("compute-score");
+const buttons = document.getElementsByClassName("controls");
+const playerImage = document.getElementById("player-image");
+const computerImage = document.getElementById("computer-image");
+const playerScore = document.getElementById("player-score");
+const computerScore = document.getElementById("computer-score");
 let choices = ["rock", "paper", "scissors"];
 
+/** add event listener to buttons */
+
+for(let button of buttons){
+    button.addEventListener("click", function){
+        let playerChoice = this.getAttribute ("data-choice");
+        play(playerChoice);
+    }
+}
+
+function play(playerChoice) {
+    playerImage.src = `assets/images/${choices[playerChoice]}.jpg`;
+    playerImage.alt = choices[playerChoice];
+
+    let computerChoice = Math.floor(Math.random() * choices.length);
+    computerChoice.src =`assets/images/${choices[computerChoice]}.jpg`;
+    computerChoice.alt = choices[computerChoice];
+    
+}
