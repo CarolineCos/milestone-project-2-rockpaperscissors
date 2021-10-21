@@ -1,24 +1,14 @@
 
-body {background-color: lightcoral;
+body {background-color: lightblue;
     font-family: "indie flower", roboto;
+    margin: 10px;
     
 }
 h1 {
     text-align: center;
 }
+/* Buttons*/
 
-img {
-    width: 50%;
-    height: auto;
-}
-
-.game {
-    display: inline-block;
-    width: 30%;
-    text-align: center;
-    padding:0px 5px;
-    
-}
 
 .choices {
     text-align: center;
@@ -34,25 +24,62 @@ button {
     font-weight: bold;
     font-size: larger;
 }
+.rock:active,
+.rock:hover {
+    background-color: gray
+    }
+
+.paper:active,
+.paper:hover {
+    background-color: gray;
+}
+
+.scissors:active,
+.scissors:hover {
+    background-color: gray;
+}
+
+/* game area*/
+
+img {
+    width: 75%;
+    height: auto;
+}
+
+.game {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding:0px 5px;
+    
+}
 
 #game-area{
-    height: 300px;
+    height: 400px;
+    background-color: lightcoral;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
 }
 #player-left {
-    width: 33%;
+    width: 40%;
     float: left;
   }
 
 #computer-right {
-    width: 33%;
+    width: 40%;
     float: right;
     
 }
+
+/*
 #score-center{
     width: 33%;
     margin: 0 auto;
 }
+*/
 
+/* Score Area*/
 
 .score-area{
     text-align: center;
@@ -72,6 +99,7 @@ button {
     background-color: white;
     padding: .75px 8px;
   }
+/*footer/rules*/
 
 footer{
     position: absolute;
@@ -83,3 +111,4 @@ footer{
   
     text-align: center;
 }
+

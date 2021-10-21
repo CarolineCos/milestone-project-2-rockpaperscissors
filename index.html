@@ -14,9 +14,9 @@
     
     <div class="choices">
         <h2>Make Your Choice:</h2>
-        <button>Rock</button>
-        <button>Paper</button>
-        <button>Scissors</button>
+        <button aria-label="rock" data-choice="0" class="rock">Rock</button>
+        <button aria-label="rock" data-choice="1" class="paper">Paper</button>
+        <button aria-label="rock" data-choice="2" class="scissors">Scissors</button>
     </div>
 
 <section id="game-area">
@@ -33,13 +33,13 @@
             </p>
         </div>
 
-        <div class="score-area" id="score-center">
-        <h2>Scores:</h2>
-        <p class="scores">Player: <span id="score">0</span> </p>
-        <p class="scores"> Computer: <span id="score">0</span></p>
-        </div>
-
 </section>
+
+<div class="score-area" id="score-center">
+    <h2>Scores:</h2>
+    <span class="scores">Player: <span id="score">0</span> </span>
+<span class="scores"> Computer: <span id="score">0</span></span>
+    </div>
 
     <footer >
         <span class="rules"> <p>Rock beats Scissors / Scissors beats Paper / Paper beats rock</p></span>
