@@ -19,24 +19,21 @@
         <button aria-label="scissors" data-choice="2" class="scissors controls">Scissors</button>
     </div>
 
+    <div > <span id="winner"></span></div>
+
     <section id="game-area">
     <div class="game" id="player-left">
-            <h2>Players Choice:</h2>
+            <h2>Player: <span id="score player-score">0</span> </span></h2>
             <img id="player-image" src="assets/images/rps.jpg" alt="rock-paper-scissors-image">
             
     </div>
         <div class="game" id="computer-right"> 
-            <h2>Computers Choice:</h2>
+            <h2>Computer: <span id="score computer-score">0</span></span> </h2>
             <img id="computer-image" src="assets/images/rps.jpg" alt="rock-paper-scissors-image">
     </div>
 
     </section>
 
-    <div class="score-area" id="score-center">
-    <span class="scores">Player: <span id="score player-score">0</span> </span>
-    <span class="scores"> Computer: <span id="score computer-score">0</span></span>
-    </div>
-    
     <footer >
         <span class="rules"> <p>Rock beats Scissors / Scissors beats Paper / Paper beats rock</p></span>
     </footer>
