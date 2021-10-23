@@ -24,8 +24,43 @@ function play(playerChoice) {
     
 }
 
+/** check winner */
 
 
+function checkWinner(){
+   if (computerChoice === playerChoice){
+    alert("Its a draw");
+   }
+
+   if(computerChoice === "rock" && playerChoice === "paper"){
+       alert("You Win");
+       incrementScore(playerScore);
+   }
+
+   if(computerChoice === "rock" && playerChoice === "scissors"){
+    alert("Computer Wins");
+    incrementScore(computerScore);
+}
+
+    if(computerChoice === "paper" && playerChoice === "rock"){
+    alert("Computer Wins");
+    incrementScore(computerScore);
+}
+    if(computerChoice === "paper" && playerChoice === "scissors"){
+    alert("You Win");
+    incrementScore(playerScore);
+}
+    if(computerChoice === "scissors" && playerChoice === "paper"){
+    alert("Computer Wins");
+    incrementScore(computerScore);
+}
+    if(computerChoice === "scissors" && playerChoice === "rock"){
+    alert("You Win");
+    incrementScore(playerScore);
+}
+}
+
+checkWinner();
 /** increment score */
 
 /** possibly add winner message */
