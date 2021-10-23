@@ -24,3 +24,8 @@ function play(playerChoice) {
     
 }
 
+/** check winner */
+
+/** increment score */
+
+/** possibly add winner message */
