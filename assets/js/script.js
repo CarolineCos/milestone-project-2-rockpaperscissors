@@ -22,60 +22,59 @@ function play(playerChoice) {
     computerImage.src =`assets/images/${choices[computerChoice]}.jpg`;
     computerImage.alt = choices[computerChoice];
    
-    let result = checkWinner(choices[computer], choices[playerChoice]);
+    let result = checkWinner(choices[computerChoice], choices[playerChoice]);
 
-    updateScores(result);
+    //updateScores(result);
 }
 
-/**
- * rock === 0
- * paper === 1
- * scissors == 2
- */
-
-   function checkWinner(choices[computerChoice], choices[playerChoice]) {
+   function checkWinner(computerChoice, playerChoice) {
 
     if (choices[computerChoice] === choices[playerChoice]){
-        alert("It's a tie");
-    } 
+        console.log("It's a tie");
+    }
      // rock vs paper
-    else if (choices[computerChoice]===0 && choices[playerChoice] === 1){
-        alert("You win");
-        incrementPlayerScore();
+    else if (choices[computerChoice] === "rock" && choices[playerChoice] === "paper"){
+        console.log("You win");
     }
     //rock vs scissors 
-    else if (choices[computerChoice]===0 && choices[playerChoice] === 2){
-        alert("You lose");
+    else if (choices[computerChoice] === "rock" && choices[playerChoice] === "scissors"){
+        console.log("You lose");
         incrementComputerScore();
     } 
+    // paper vs rock
+    else if (choices[computerChoice] === "paper" && choices[playerChoice] === "rock"){
+        console.log("You Win");
+        incrementComputerScore();
+    }
     //paper vs scissors
-    else if (choices[computerChoice]===1 && choices[playerChoice] === 2){
-        alert("You win");
+    else if (choices[computerChoice] === "paper" && choices[playerChoice] === "scissors"){
+        console.log("You win");
         incrementPlayerScore();
         // scissors vs paper
-    } else if (choices[computerChoice]===2 && choices[playerChoice] === 1){
-        alert("You lose");
+    }
+    else if (choices[computerChoice] === "sissors" && choices[playerChoice] === "paper"){
+        console.log("You lose");
         incrementComputerScore();
         // scissors vs rock
-    } else if (choices[computerChoice]===2 && choices[playerChoice] === 0){
-        alert("You win");
+    }  
+    if (choices[computerChoice] === "scissors" && choices[playerChoice] === "rock" ){
+        console.log("You win");
         incrementPlayerScore();
-
-     }
-   }
-
-   function updateScores() {
-
-    function incrementPlayerScore() {
-      let oldScore =  parseInt(playerScore.innerText);
-      playerScore.innerText= ++oldScore;
-      
     }
-    
-    function incrementComputerScore() {
-        let oldScore =  parseInt(computerScore.innerText);
-        computerScore.innerText= ++oldScore;                       
+}
+ /**
+     function updateScores()
+
+        function incrementPlayerScore() {
+            let oldScore =  parseInt(playerScore.innerText);
+            playerScore.innerText= ++oldScore;
+            
+          }
+          
+          function incrementComputerScore() {
+              let oldScore =  parseInt(computerScore.innerText);
+              computerScore.innerText= ++oldScore; 
+
      }
-   }
-    
+     */
 /** possibly add winner message */
