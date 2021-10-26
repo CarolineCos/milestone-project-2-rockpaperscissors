@@ -26,42 +26,35 @@ function play(playerChoice) {
 
     //updateScores(result);
 }
+//rock = 0
+//paper = 1
+//scissors = 2
 
    function checkWinner(computerChoice, playerChoice) {
 
-    if (choices[computerChoice] === choices[playerChoice]){
+    if (computerChoice === playerChoice){
         console.log("It's a tie");
-    }
-     // rock vs paper
-    else if (choices[computerChoice] === "rock" && choices[playerChoice] === "paper"){
+    } else  if (computerChoice === "rock" && playerChoice  === "paper"){
         console.log("You win");
-    }
-    //rock vs scissors 
-    else if (choices[computerChoice] === "rock" && choices[playerChoice] === "scissors"){
+    } else if (computerChoice === "rock" && playerChoice === "scissors"){
         console.log("You lose");
-        incrementComputerScore();
-    } 
-    // paper vs rock
-    else if (choices[computerChoice] === "paper" && choices[playerChoice] === "rock"){
-        console.log("You Win");
-        incrementComputerScore();
-    }
-    //paper vs scissors
-    else if (choices[computerChoice] === "paper" && choices[playerChoice] === "scissors"){
-        console.log("You win");
-        incrementPlayerScore();
-        // scissors vs paper
-    }
-    else if (choices[computerChoice] === "sissors" && choices[playerChoice] === "paper"){
+        //incrementComputerScore();
+    } else if (computerChoice === "paper" && playerChoice === "rock"){
         console.log("You lose");
-        incrementComputerScore();
-        // scissors vs rock
-    }  
-    if (choices[computerChoice] === "scissors" && choices[playerChoice] === "rock" ){
+       // incrementComputerScore();
+    } else if (computerChoice === "paper" && playerChoice === "scissors"){
         console.log("You win");
-        incrementPlayerScore();
-    }
-}
+       // incrementPlayerScore();
+    } else if (computerChoice === "sissors" && playerChoice === "paper"){
+        console.log("You lose");
+        //incrementComputerScore();
+    }  else { (computerChoice === "scissors" && playerChoice === "rock" );
+        console.log("You win");
+       // incrementPlayerScore();
+}  
+   }
+
+
  /**
      function updateScores()
 
