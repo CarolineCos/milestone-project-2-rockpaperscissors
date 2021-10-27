@@ -5,8 +5,10 @@ body {background-color: lightblue;
     width: 100%;
     
 }
+
 h1 {
     text-align: center;
+    padding-right: 10px;
 }
 /* Buttons*/
 
@@ -94,7 +96,18 @@ img {
     background-color: white;
     padding: .75px 8px;
   }
-  
+
+  #winner{
+      font-size: x-large;
+      text-align: center;
+      font-weight: bold;
+
+  }
+
+  .message{
+      text-align: center;
+      padding: 2px;
+  }
 /*footer rules*/
 
 footer{
