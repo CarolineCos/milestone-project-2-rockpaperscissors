@@ -12,7 +12,10 @@ h1 {
 }
 /* Buttons*/
 
-
+p {
+    font-size: larger;
+    font-weight: bold;
+}
 .choices {
     text-align: center;
     margin-left: 10px;

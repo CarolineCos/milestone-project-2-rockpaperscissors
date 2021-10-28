@@ -24,43 +24,50 @@ function play(playerChoice) {
    
     let result = checkWinner(choices[computerChoice], choices[playerChoice]);
 
-    //updateScore(result);
+    incrementPlayerScore();
+    incrementComputerScore();
 }
 
    function checkWinner(computerChoice, playerChoice) {
    
-
     if (computerChoice === playerChoice){
         document.getElementById('winner').innerText="Its a tie!";
+
     } else if (computerChoice === "rock" && playerChoice === "paper"){
         document.getElementById('winner').innerText="You Win!";
-        // incrementPlayerScore(); 
+        incrementPlayerScore(); 
+        
     } else if (computerChoice === "rock" && playerChoice === "scissors"){
         document.getElementById('winner').innerText="Computer Wins!";
-       // incrementComputerScore();
-     
+        incrementComputerScore();
+
     } else if (computerChoice === "paper" && playerChoice === "rock"){
         document.getElementById('winner').innerText="Computer Wins!";
+        incrementComputerScore();
 
-      //  incrementComputerScore();
-       
     } else if (computerChoice === "paper" && playerChoice === "scissors"){
         document.getElementById('winner').innerText="You Win!";
-      //  incrementPlayerScore();
-        
+        incrementPlayerScore();
+
     } else if (computerChoice === "scissors" && playerChoice === "paper"){
         document.getElementById('winner').innerText="Computer Wins!";
+        incrementComputerScore();
 
-       // incrementComputerScore();
-      
     } else { (computerChoice === "scissors" && playerChoice === "rock") ;
         document.getElementById('winner').innerText="You Win!";
-
-       // incrementPlayerScore();
+         incrementPlayerScore();
     }  
-
+  
    }
 
+function incrementPlayerScore(){
+    let oldScore = parseInt(document.getElementById('player-score').innerText);
+    document.getElementById('player-score').innerText = ++oldScore;
+}
 
+function incrementComputerScore(){
+    let oldScore = parseInt(document.getElementById('computer-score').innerText);
+    document.getElementById('computer-score').innerText = ++oldScore;
+}
 
    
