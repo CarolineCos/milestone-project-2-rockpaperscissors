@@ -22,27 +22,23 @@ function play(playerChoice) {
     computerImage.src =`assets/images/${choices[computerChoice]}.jpg`;
     computerImage.alt = choices[computerChoice];
    
-    let result = checkWinner(choices[computerChoice], choices[computerChoice]);
+    let result = checkWinner(choices[computerChoice], choices[playerChoice]);
 
     //updateScore(result);
 }
 
    function checkWinner(computerChoice, playerChoice) {
-    
+   
 
     if (computerChoice === playerChoice){
         document.getElementById('winner').innerText="Its a tie!";
-
     } else if (computerChoice === "rock" && playerChoice === "paper"){
         document.getElementById('winner').innerText="You Win!";
-        
-       // incrementPlayerScore(); 
-        
-     } else if (computerChoice === "rock" && playerChoice === "scissors"){
+        // incrementPlayerScore(); 
+    } else if (computerChoice === "rock" && playerChoice === "scissors"){
         document.getElementById('winner').innerText="Computer Wins!";
-
        // incrementComputerScore();
-        
+     
     } else if (computerChoice === "paper" && playerChoice === "rock"){
         document.getElementById('winner').innerText="Computer Wins!";
 
@@ -57,12 +53,11 @@ function play(playerChoice) {
 
        // incrementComputerScore();
       
-    }  else { (computerChoice === "scissors" && playerChoice === "rock" );
+    } else { (computerChoice === "scissors" && playerChoice === "rock") ;
         document.getElementById('winner').innerText="You Win!";
 
        // incrementPlayerScore();
-        
-}  
+    }  
 
    }
 
