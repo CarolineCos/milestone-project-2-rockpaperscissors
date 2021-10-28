@@ -24,8 +24,8 @@ function play(playerChoice) {
    
     let result = checkWinner(choices[computerChoice], choices[playerChoice]);
 
-    incrementPlayerScore();
-    incrementComputerScore();
+    incrementPlayerScore(result);
+    incrementComputerScore(result);
 }
 
    function checkWinner(computerChoice, playerChoice) {
@@ -70,4 +70,4 @@ function incrementComputerScore(){
     document.getElementById('computer-score').innerText = ++oldScore;
 }
 
-   
+  
