@@ -4,6 +4,8 @@ const computerImage = document.getElementById("computer-image");
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");
 let choices = ["rock", "paper", "scissors"];
+let playerCount = 0;
+let computerCount = 0;
 
 /** add event listener to buttons */
 
@@ -22,10 +24,7 @@ function play(playerChoice) {
     computerImage.src =`assets/images/${choices[computerChoice]}.jpg`;
     computerImage.alt = choices[computerChoice];
    
-    let result = checkWinner(choices[computerChoice], choices[playerChoice]);
-
-    incrementPlayerScore(result);
-    incrementComputerScore(result);
+    checkWinner(choices[computerChoice], choices[playerChoice]);
 }
 
    function checkWinner(computerChoice, playerChoice) {
@@ -61,13 +60,14 @@ function play(playerChoice) {
    }
 
 function incrementPlayerScore(){
-    let oldScore = parseInt(document.getElementById('player-score').innerText);
-    document.getElementById('player-score').innerText = ++oldScore;
+    
+    ++playerCount;
+    playerScore.innerText = playerCount;
 }
 
 function incrementComputerScore(){
-    let oldScore = parseInt(document.getElementById('computer-score').innerText);
-    document.getElementById('computer-score').innerText = ++oldScore;
+    ++computerCount;
+    computerScore.innerText = computerCount;    
 }
 
   
