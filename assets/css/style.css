@@ -16,6 +16,7 @@ p {
     font-size: larger;
     font-weight: bold;
 }
+
 .choices {
     text-align: center;
     margin-left: 10px;
@@ -80,22 +81,8 @@ img {
 
 /* Score Area*/
 
-.score-area{
-    text-align: center;
-    padding-top: 10px;
-}
 
 .scores {
-   font-size: larger;
-   margin-top: 5px;
-   margin-left: 25px;
-   margin-bottom: 50px;
-   font-weight: bold;
-   padding-bottom: 80px;
-   text-align: center;
-}
-
-#score {
     background-color: white;
     padding: .75px 8px;
   }
@@ -125,3 +112,9 @@ footer{
     text-align: center;
 }
 
+@media screen and (max-width:600px) {
+
+    #game-area{
+        height: 200px;
+    
+}

@@ -30,7 +30,7 @@ function play(playerChoice) {
    function checkWinner(computerChoice, playerChoice) {
    
     if (computerChoice === playerChoice){
-        document.getElementById('winner').innerText="Its a tie!";
+        document.getElementById('winner').innerText="It's a tie!";
 
     } else if (computerChoice === "rock" && playerChoice === "paper"){
         document.getElementById('winner').innerText="You Win!";
