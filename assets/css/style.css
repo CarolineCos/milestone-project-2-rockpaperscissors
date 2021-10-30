@@ -2,13 +2,12 @@
 body {background-color: lightblue;
     font-family: "indie flower", roboto;
     margin: 10px;
-    width: 100%;
-    
+   
 }
 
 h1 {
     text-align: center;
-    padding-right: 10px;
+    
 }
 /* Buttons*/
 
@@ -20,7 +19,7 @@ p {
 .choices {
     text-align: center;
     margin-left: 10px;
-    padding-right: 80px;
+   
 }
 
 button {
@@ -116,5 +115,19 @@ footer{
 
     #game-area{
         height: 200px;
+    }
+
+    .choices {
+    text-align: center;
+  
+}
+
+}
+
+@media screen and (max-width: 850px) {
+
+    #game-area{
+        height: 300px;
+    }
     
 }
