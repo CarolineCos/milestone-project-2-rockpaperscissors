@@ -144,6 +144,13 @@ A couple of issues were highlighted which I amended:
 
 <img width="960" alt="W3C Validater" src="https://user-images.githubusercontent.com/87449935/139586358-e4cd59e7-3f87-45b9-a2a7-622b1792a4d0.png">
 
+## CSS testing
+
+No errors found:
+
+[Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcarolinecos.github.io%2Fmilestone-project-2-rockpaperscissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+<img width="946" alt="Jigsaw-cssValidator" src="https://user-images.githubusercontent.com/87449935/139586581-9419524a-d56f-4f51-b418-d2324e5cf4bd.png">
 
 
 # Deployment
