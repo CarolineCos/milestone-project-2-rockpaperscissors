@@ -51,9 +51,13 @@ However I felt that the design, as I was building it, was too busy so I changed 
 
 ### Choices Area
 
-* The choice area features three buttons for the player to select, these turn gray when hovered over to indicate a possible choice:
+* The choice area features three buttons for the player to select, the background colour the buttons are the same as the game area to link the two features.
 
 <img width="946" alt="Choices Area" src="https://user-images.githubusercontent.com/87449935/139582424-6adf9974-1e08-4d58-b517-be2b3eecf05d.png">
+
+* The buttons turn gray when hovered over to indicate a possible choice:
+
+<img width="945" alt="Hover feature" src="https://user-images.githubusercontent.com/87449935/139582889-b5f55b56-a48f-455d-aabf-ee6a1edd941b.png">
 
 ### Messages Area
 
