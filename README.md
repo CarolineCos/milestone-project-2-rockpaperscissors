@@ -142,8 +142,7 @@ A couple of issues were highlighted which I amended:
 
 [W3C validater Html](https://validator.w3.org/)
 
-<img width="960" alt="W3C Validater" src="https://user-images.githubusercontent.com/87449935/139586358-e4cd59e7-3f87-45b9-a2a7-622b1792a4d0.png">
-
+<img width="950" alt="W3C Validater-RPS" src="https://user-images.githubusercontent.com/87449935/139586751-1ac36a8a-b161-4276-bd0a-5edb299f8b43.png">
 ## CSS testing
 
 No errors found:
