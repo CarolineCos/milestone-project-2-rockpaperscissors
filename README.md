@@ -21,10 +21,32 @@ My inital wireframe for the game was:
 
 <img width="560" alt="Wireframe" src="https://user-images.githubusercontent.com/87449935/139580684-90579cb4-7226-4c82-a3b2-bf9cb40cdaef.png">
 
-However I felt that the design, as I was building it, was too busy so I changed the layout of the choices and score area and adjusted the rule area byt removing 'rules' to make it clean and more user friendly.
+However I felt that the design, as I was building it, was too busy so I changed the layout of the choices and score area and adjusted the rule area by removing 'rules' to make it clean and more user friendly.
 
 # Features
 
+### Surface
+  
+  I wanted the look of the game to be fun bright and inviting. To achieve this choose to use the following to acheive the asthetic desired.
+  
+ * Background Colour: lightblue
+ ** rgb(173, 216, 230)
+ ** hex 99CCCC
+      
+      rgb(240, 128, 128)
+### Heading
+
+### Choices Area
+
+### Messages Area
+
+### Game Area
+
+#### Scores 
+
+#### Images
+
+### Rules/Footer
 
 # Technology
 
