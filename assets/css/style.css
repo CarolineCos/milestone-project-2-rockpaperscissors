@@ -124,7 +124,7 @@ footer{
     .choices {
     text-align: center;
   
-}
+    }
 
 }
 
@@ -136,3 +136,9 @@ footer{
     
 }
 
+@media screen and (min-width: 1600px) {
+    #game-area{
+        height: 500px;
+    }
+}
+    
