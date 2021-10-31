@@ -27,13 +27,21 @@ However I felt that the design, as I was building it, was too busy so I changed 
 
 ### Surface
   
-  I wanted the look of the game to be fun bright and inviting. To achieve this choose to use the following to acheive the asthetic desired.
+  I wanted the look of the game to be fun, bright and inviting. To achieve this, I choose to use the following to acheive the asthetic desired.
   
- * Background Colour: lightblue
- ** rgb(173, 216, 230)
- ** hex 99CCCC
+ #### Background Colour: 
+  * lightblue
+  * RBG - rgb(173, 216, 230)
+  * Hex - 99CCCC
       
-      rgb(240, 128, 128)
+ #### Game area and choices colour:
+  * lightcoral
+  * RGB - rgb(240, 128, 128)
+  * Hex - #F08080
+
+#### Font
+ *  font-family: "indie flower", roboto
+  
 ### Heading
 
 ### Choices Area
