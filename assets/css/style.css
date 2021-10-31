@@ -115,7 +115,7 @@ footer{
     text-align: center;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:320px) {
 
     #game-area{
         height: 80px;
