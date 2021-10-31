@@ -61,9 +61,24 @@ However I felt that the design, as I was building it, was too busy so I changed 
 
 ### Messages Area
 
+* This Feature displays who won the game with one of three messages
+  * It's a tie
+  * You Won!
+  * Computer Wins!
+
+<img width="949" alt="Message area" src="https://user-images.githubusercontent.com/87449935/139583177-ac42c31f-1260-4383-a1ac-d03e6988ba18.png">
+
 ### Game Area
 
+The game Area has two seperate features. 
+
+It also has a  'Lets Play!' heading above the scores.
+
 #### Scores 
+
+The Score area keeps a tally of the scores that is recorded above the players and computers images
+
+
 
 #### Images
 
