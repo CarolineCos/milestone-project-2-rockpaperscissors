@@ -9,6 +9,10 @@ h1 {
     text-align: center;
     
 }
+
+h3{
+    text-align: center;
+}
 /* Buttons*/
 
 p {
@@ -61,7 +65,7 @@ img {
 }
 
 #game-area{
-    height: 400px;
+    height: 450px;
     background-color: lightcoral;
     margin-left: 10px;
     margin-right: 10px;
@@ -132,8 +136,3 @@ footer{
     
 }
 
-@media screen and (max-width: 2000px) {
-    #game-area{
-        height: 500px;
-    }
-}
