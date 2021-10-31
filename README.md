@@ -170,15 +170,50 @@ The project was deployed on Github Pages. I used Gitpod to commit changes and I 
 * Click on link
 * From source click 'Branch' and save.
 * Page is deployed after auto refresh
-* 
+*  Your site is ready to be published at https://carolinecos.github.io/milestone-project-2-rockpaperscissors/
 
 
 
 # Credits
 
-#Surf
-i used code from love running to align the game area
+## Contents
 
-<button aria-label="rock" data-choice="0" class="rock">
+I used the idea provided by Code institute.
 
-used CI code for button.add listener event and play() function
+The intial code for the player selection and random computer choice as well as the image selector is the code institutes.
+
+for(let button of buttons){
+    button.addEventListener("click", function(){
+        let playerChoice = this.getAttribute("data-choice");
+        play(playerChoice);
+    }
+)};
+
+function play(playerChoice) {
+    playerImage.src = `assets/images/${choices[playerChoice]}.jpg`;
+    playerImage.alt = choices[playerChoice];
+
+    let computerChoice = Math.floor(Math.random() * 3);
+    computerImage.src =`assets/images/${choices[computerChoice]}.jpg`;
+    computerImage.alt = choices[computerChoice];
+   
+   
+   I did edit the play function to suit my purposes.
+   
+   I also took inspiration from the Love Maths project for alignement of the game 
+   and incrementing the scores which i needed to amend for functionallity purposes
+   
+  Thank you for your inspiration and for the Code Institues full template!
+  
+  ## Help and Hints
+  
+   I used the below resourses to guide and clarify some of code.
+   
+ * [W3 Schools](https://www.w3schools.com/)
+ * [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+ * Random google searchs 
+
+  I would also like to thank .... for her guidance with incrementing the scores code
+
+
+
