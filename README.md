@@ -163,6 +163,15 @@ The project was deployed on Github Pages. I used Gitpod to commit changes and I 
 
 ### Deploying the project
 
+* Log into Github
+* Open repository required
+* Click on Settings
+* Scroll down the settings and find Github pages
+* Click on link
+* From source click 'Branch' and save.
+* Page is deployed after auto refresh
+* 
+
 
 
 # Credits
