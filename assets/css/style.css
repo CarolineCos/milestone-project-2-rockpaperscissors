@@ -118,7 +118,7 @@ footer{
 @media screen and (max-width:600px) {
 
     #game-area{
-        height: 150px;
+        height: 200px;
     }
 
     .choices {
@@ -126,19 +126,23 @@ footer{
   
     }
 
+    section{
+        font-size: smaller;
+    }
+
 }
 
 @media screen and (max-width: 850px) {
 
     #game-area{
-        height: 300px;
+        height: 350px;
     }
     
 }
 
 @media screen and (min-width: 1600px) {
     #game-area{
-        height: 600px;
+        height: 650px;
     }
 }
     
