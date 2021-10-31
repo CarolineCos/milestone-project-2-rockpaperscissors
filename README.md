@@ -213,7 +213,7 @@ function play(playerChoice) {
  * [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
  * Random google searchs 
 
-  I would also like to thank @{https://github.com/JulieADCL] for her guidance with incrementing the scores code
+  I would also like to thank @ JulieADCL for her guidance with incrementing the scores code
 
 
 
