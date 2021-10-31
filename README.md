@@ -47,7 +47,13 @@ However I felt that the design, as I was building it, was too busy so I changed 
 * The Rock, Paper, Scissors Heading.
   * At the top centre of the page the user will be able to see the name of the game apon opening the page
 
+<img width="945" alt="Heading" src="https://user-images.githubusercontent.com/87449935/139582119-055fa089-7e17-4ec5-bb0a-3f4487f21906.png">
+
 ### Choices Area
+
+* The choice area features three buttons for the player to select, these turn gray when hovered over to indicate a possible choice:
+
+
 
 ### Messages Area
 
