@@ -94,10 +94,55 @@ I then cut the main placeholder image for the choice selection images:
 
 The rules of the game are placed in the footer:
 
+<img width="948" alt="footer" src="https://user-images.githubusercontent.com/87449935/139585422-c0682dd1-41a4-4de8-aa20-d1de44ee3f7f.png">
 
 # Technology
 
+## HTML
+
+To give stucture to the game
+
+## CSS
+
+This was used to add style to the game.
+
+## javaScript
+
+This was used to provide the game with interactivity for the player to engage with the game.
+
+## MediaQuery
+
+This was used to make the game responsive to different screens.
+
+## Google Fonts
+
+To provide a attractive font for the game.
+
+## Wireframes
+
+I used Balsamiq as a tool to make the wireframe.
+
+## Github
+
+To save the project and make it publicly available.
+
+## Gitpod
+
+This was just as the code editor to build the game.
+
 # Testing
+
+## HTML testing
+
+I used the HTML validator to check any possible issue with my code. 
+
+A couple of issues were highlighted which I amended:
+  * No headings in the game area - I added a 'Let's play!' heading.
+  * Pargraphs and heading tags were used in spans - footer and scores.
+
+[W3C validater Html](https://validator.w3.org/)
+
+
 
 # Deployment
 
