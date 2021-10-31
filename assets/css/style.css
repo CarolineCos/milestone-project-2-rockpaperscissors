@@ -140,9 +140,9 @@ footer{
     
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1800px) {
     #game-area{
-        height: 700px;
+        height: 900px;
     }
 }
     
