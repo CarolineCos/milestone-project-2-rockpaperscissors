@@ -44,6 +44,9 @@ However I felt that the design, as I was building it, was too busy so I changed 
   
 ### Heading
 
+* The Rock, Paper, Scissors Heading.
+  * At the top centre of the page the user will be able to see the name of the game apon opening the page
+
 ### Choices Area
 
 ### Messages Area
