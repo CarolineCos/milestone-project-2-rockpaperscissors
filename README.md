@@ -151,8 +151,19 @@ No errors found:
 
 <img width="946" alt="Jigsaw-cssValidator" src="https://user-images.githubusercontent.com/87449935/139586581-9419524a-d56f-4f51-b418-d2324e5cf4bd.png">
 
+## Lighthouse check
+
+[Lighthouse Report](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fcarolinecos.github.io%2Fmilestone-project-2-rockpaperscissors%2F)
+
+<img width="947" alt="Lighthouse Check" src="https://user-images.githubusercontent.com/87449935/139586979-4c7e8c10-d5e3-4e52-b062-56fc1b25eb56.png">
 
 # Deployment
+
+The project was deployed on Github Pages. I used Gitpod to commit changes and I push the project to Github.
+
+### Deploying the project
+
+
 
 # Credits
 
