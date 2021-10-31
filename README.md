@@ -76,9 +76,9 @@ It also has a  'Lets Play!' heading above the scores.
 
 #### Scores 
 
-The Score area keeps a tally of the scores that is recorded above the players and computers images
+The Score area keeps a tally of the scores that is recorded above the players and computers images:
 
-
+<img width="947" alt="2021-10-31 (10)" src="https://user-images.githubusercontent.com/87449935/139583408-ab050764-0cc5-435a-905a-6c629d3c1f31.png">
 
 #### Images
 
