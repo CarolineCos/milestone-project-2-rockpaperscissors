@@ -53,7 +53,7 @@ However I felt that the design, as I was building it, was too busy so I changed 
 
 * The choice area features three buttons for the player to select, these turn gray when hovered over to indicate a possible choice:
 
-
+<img width="946" alt="Choices Area" src="https://user-images.githubusercontent.com/87449935/139582424-6adf9974-1e08-4d58-b517-be2b3eecf05d.png">
 
 ### Messages Area
 
