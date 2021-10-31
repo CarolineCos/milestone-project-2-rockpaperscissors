@@ -82,7 +82,18 @@ The Score area keeps a tally of the scores that is recorded above the players an
 
 #### Images
 
+The images used were from google images (publicdomainvectors.org) and inspired by code institute as I liked the simplicity of their choice.
+
+<img width="944" alt="Placeholder-image" src="https://user-images.githubusercontent.com/87449935/139583922-1f07e991-3771-46d1-a90c-f02154f47436.png">
+
+I then cut the main placeholder image for the choice selection images:
+
+<img width="948" alt="choice-image" src="https://user-images.githubusercontent.com/87449935/139583935-f203e8e8-579c-4c98-837f-b17d4c614933.png">
+
 ### Rules/Footer
+
+The rules of the game are placed in the footer:
+
 
 # Technology
 
