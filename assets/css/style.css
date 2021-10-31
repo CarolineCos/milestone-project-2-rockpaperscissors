@@ -115,10 +115,10 @@ footer{
     text-align: center;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:550px) {
 
     #game-area{
-        height: 80px;
+        height: 50px;
     }
 
     .choices {
