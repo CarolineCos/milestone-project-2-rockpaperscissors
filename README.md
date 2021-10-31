@@ -7,7 +7,20 @@ The purpose of building this game is to demonstrate my knowledge and understandi
 
 # User Experience
 
+When designing this game I was mindful that this is a fun distraction for the visitor so I wanted it to be a bright, fun and simple game.
+
+* The game is set up to be user friendly
+* The images display the users and computers choice.
+* There is a message displaying the winner and the scores are also incrementing to keep track of the winner.
+
 # Wireframes of website
+
+I used balsamiq to create wireframes for this project.
+
+My inital wireframe for the game was:
+
+
+
 
 # Features
 
